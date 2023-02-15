@@ -6,8 +6,8 @@ public class Main {
     static BlockingQueue<String> queue_A = new ArrayBlockingQueue<>(100, true);
     static BlockingQueue<String> queue_B = new ArrayBlockingQueue<>(100, true);
     static BlockingQueue<String> queue_C = new ArrayBlockingQueue<>(100, true);
-    static int textLength = 1000;
-    static int stringQuantity = 10;
+    static int textLength = 100_000;
+    static int stringQuantity = 10_000;
 
     public static void main(String[] args) throws InterruptedException {
         String template = "abc";
